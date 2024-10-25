@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB6DFC762CCB809900ADB306 /* Characters in Frameworks */ = {isa = PBXBuildFile; productRef = BB6DFC752CCB809900ADB306 /* Characters */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BB6DFC4A2CCB7C3F00ADB306 /* rickyandmorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rickyandmorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -14,7 +18,7 @@
 		BB6DFC5C2CCB7C4000ADB306 /* Exceptions for "rickyandmorty" folder in "rickyandmorty" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Assets/Info.plist,
 			);
 			target = BB6DFC492CCB7C3F00ADB306 /* rickyandmorty */;
 		};
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6DFC762CCB809900ADB306 /* Characters in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = rickyandmorty;
 			packageProductDependencies = (
+				BB6DFC752CCB809900ADB306 /* Characters */,
 			);
 			productName = rickyandmorty;
 			productReference = BB6DFC4A2CCB7C3F00ADB306 /* rickyandmorty.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = BB6DFC412CCB7C3F00ADB306;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BB6DFC742CCB809900ADB306 /* XCLocalSwiftPackageReference "Characters" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BB6DFC4B2CCB7C3F00ADB306 /* Products */;
 			projectDirPath = "";
@@ -146,10 +155,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = rickyandmorty/Info.plist;
+				INFOPLIST_FILE = rickyandmorty/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -173,10 +181,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = rickyandmorty/Info.plist;
+				INFOPLIST_FILE = rickyandmorty/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +340,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BB6DFC742CCB809900ADB306 /* XCLocalSwiftPackageReference "Characters" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Characters;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB6DFC752CCB809900ADB306 /* Characters */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Characters;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB6DFC422CCB7C3F00ADB306 /* Project object */;
 }
