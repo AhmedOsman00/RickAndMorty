@@ -1,0 +1,21 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Characters" : {
+      "extractionState" : "manual"
+    },
+    "Failed to decode the response." : {
+      "extractionState" : "manual"
+    },
+    "Location: %@" : {
+      "extractionState" : "manual"
+    },
+    "No data was received from the server." : {
+      "extractionState" : "manual"
+    },
+    "The provided URL is invalid." : {
+      "extractionState" : "manual"
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,39 +1,69 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# macOS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-## Build generated
+# Xcode
+# Exclude build files and intermediate build results
 build/
 DerivedData/
-
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
+*.xcworkspace
 xcuserdata/
+*.xcuserstate
+!default.xcworkspace/contents.xcworkspacedata
 
-## Other
-*.moved-aside
+# Swift Packages
+# Ignore Package.resolved file if dependencies are managed externally
+# (e.g., not committed to the repo, but auto-generated locally)
+# Comment out if you want to commit specific resolved package versions.
+Package.resolved
+
+# Swift Package artifacts
+.swiftpm/
+.packages/
+.idea/
+*.xcodeproj/*
+.xcresult/
+
+# Xcode-specific
+*.xcconfig
+*.xcscheme
+*.xcodeproj/*.pbxuser
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.perspectivev3
 *.xccheckout
-*.xcscmblueprint
+*.moved-aside
 
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-*.dSYM.zip
+# Resource files
+# Ignore Pods (if using CocoaPods)
+Pods/
+Carthage/
+Carthage/Build/
+
+# Logs and temporary files
+*.log
+*.temp
+*.swp
+*.tmp
+
+# Build artifacts
+*.o
+*.a
+*.lo
+*.la
+*.slo
+*.so
+*.dylib
+*.ko
+*.o.d
 *.dSYM
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-.build/
+# Environment files
+.env
+.env.*
 
-# CI artifacts
-artifacts/*
+# App-specific files
+app.entitlements
+*.plist
