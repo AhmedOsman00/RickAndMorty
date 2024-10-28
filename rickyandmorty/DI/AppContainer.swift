@@ -7,7 +7,7 @@ import Router
 let container = Container.shared
 
 struct AppContainer {
-    func assemble() {
+    @MainActor func assemble() {
         container.register(HttpClientProtocol.self) { _ in
             HttpClient(session: URLSession.shared)
         }
